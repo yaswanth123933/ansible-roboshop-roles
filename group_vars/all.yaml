@@ -1,3 +1,5 @@
 MONGODB_HOST: mongodb.daws85s.store
 REDIS_HOST: redis.daws85s.store
 CATALOGUE_HOST: catalogue.daws85s.store
+CART_HOST: cart.daws85s.store
+MYSQL_HOST: mysql.daws85s.store
