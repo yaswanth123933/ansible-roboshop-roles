@@ -5,3 +5,5 @@ CART_HOST: cart.daws85s.store
 MYSQL_HOST: mysql.daws85s.store
 USER_HOST: user.daws85s.store
 RABBITMQ_HOST: rabbitmq.daws85s.store
+SHIPPING_HOST: shipping.daws85s.store
+PAYMENT_HOST: payment.daws85s.store
