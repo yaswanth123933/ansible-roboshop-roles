@@ -26,3 +26,8 @@
 - name: load products into mongodb
   ansible.builtin.shell: mongosh --host {{ MONGODB_HOST }} </app/db/master-data.js
   when: catalogue_output.stdout | int < 0
+
+- name: app setup
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: system-setup.yaml
