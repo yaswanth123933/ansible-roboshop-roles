@@ -13,6 +13,6 @@
 
 
 - name: move jar file
-  ansible.builtin.command: mv target/{{ component }}-*.jar {{ component }}.jar
+  ansible.builtin.command: mv target/{{ component }}-{{ veersion }}.jar {{ component }}.jar
   args:
     chdir: /app
